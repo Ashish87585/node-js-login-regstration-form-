@@ -1,0 +1,27 @@
+{{>header}}
+{{>navbar}}
+
+<div class="container">
+    <div class="row">
+        <h4>Login Page</h4>
+        <hr>
+        <form action="/login" method="post">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+{{>footer}}
